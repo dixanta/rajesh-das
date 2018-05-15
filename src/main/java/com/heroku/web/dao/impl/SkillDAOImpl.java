@@ -22,7 +22,7 @@ public class SkillDAOImpl implements SkillDAO {
 
     @Override
     public List<Skill> getAll() {
-        List<Skill> skills=new ArrayList<>();
+        List<Skill> skills=new ArrayList<Skill>();
         try{
             Class.forName("org.postgresql.Driver");
             String user="dypwvfxkbgwqhc";
